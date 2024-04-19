@@ -1,5 +1,5 @@
 # Bundle static assets with nginx
-FROM nginx:1.21.0-alpine as production
+FROM nginx:1.25.4-alpine as production
 
 COPY package*.json ./
 
